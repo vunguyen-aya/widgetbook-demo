@@ -34,7 +34,7 @@ class _LoginPageState extends State<LoginPage> {
               children: [
                 // Logo or App Name
                 const Icon(
-                  Icons.lock,
+                  Icons.developer_mode,
                   size: 100,
                   color: Colors.blue,
                 ),
