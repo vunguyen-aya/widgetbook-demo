@@ -34,7 +34,7 @@ class _LoginPageState extends State<LoginPage> {
               children: [
                 // Logo or App Name
                 const Icon(
-                  Icons.lock,
+                  Icons.developer_mode,
                   size: 100,
                   color: Colors.blue,
                 ),
@@ -99,7 +99,7 @@ class _LoginPageState extends State<LoginPage> {
                   alignment: Alignment.centerRight,
                   child: TextButton(
                     onPressed: () {},
-                    child: const Text('Forgot Password?'),
+                    child: const Text('Forgot Password?', style: TextStyle(color: Colors.blue)),
                   ),
                 ),
                 const SizedBox(height: 24),
