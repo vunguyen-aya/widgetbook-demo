@@ -99,7 +99,7 @@ class _LoginPageState extends State<LoginPage> {
                   alignment: Alignment.centerRight,
                   child: TextButton(
                     onPressed: () {},
-                    child: const Text('Forgot Password?', style: TextStyle(color: Colors.blue)),
+                    child: const Text('Forgot Password?'),
                   ),
                 ),
                 const SizedBox(height: 24),
