@@ -50,15 +50,15 @@ class CustomButton extends StatelessWidget {
                 ),
               )
             : Row(
-                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   if (icon != null) ...[
                     Icon(
                       icon,
                       color: textColor ?? Colors.white,
                     ),
-                    const SizedBox(width: 8),
                   ],
+                  const Spacer(),
                   Text(
                     text,
                     style: TextStyle(
@@ -67,6 +67,7 @@ class CustomButton extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+                  const Spacer(),
                 ],
               ),
       ),
