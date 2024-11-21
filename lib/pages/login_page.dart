@@ -35,14 +35,14 @@ class _LoginPageState extends State<LoginPage> {
                 // Logo or App Name
                 const Icon(
                   Icons.developer_mode,
-                  size: 100,
+                  size: 150,
                   color: Colors.blue,
                 ),
                 const SizedBox(height: 50),
 
                 // Welcome Text
                 const Text(
-                  'Welcome back!',
+                  'Welcome to app!',
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
